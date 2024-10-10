@@ -9,7 +9,7 @@ const Hero = () => {
         <p className="paragraph mt-4">
           Join our professional graphic design courses where we provide you with
           the skills and knowledge to turn your ideas into stunning designs.
-          Whether you're a beginner or a pro, we have something for everyone!
+          Whether you&apos;re a beginner or a pro, we have something for everyone!
         </p>
         <div className="flex flex-wrap gap-4 items-center mt-6">
           <button className="btn">Get started</button>

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import projectsData from "@/app/components/Projects/projectsData";
+import Image from "next/image";
 
 const ProjectPage = ({ params }) => {
   const { id } = params;
@@ -23,11 +24,15 @@ const ProjectPage = ({ params }) => {
         <ArrowLeft className="w-4 h-4" />
         Back to projects
       </Link>
-      <img
-        className="w-full h-64 object-cover rounded-lg mb-8"
-        src={project.image}
-        alt={project.title}
-      />
+      <div className="w-full h-96 my-8">
+        <Image
+          src={project.image}
+          alt={project.title}
+          width={500}
+          height={300}
+          className="w-full h-full rounded-lg mb-8 object-cover"
+        />
+      </div>
       <p className="max-w-max mb-8 bg-indigo-600 text-indigo-100 text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
         {project.category}
       </p>

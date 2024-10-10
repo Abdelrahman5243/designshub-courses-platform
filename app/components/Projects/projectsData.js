@@ -31,7 +31,7 @@ const projectsData = [
     title: "Visual Identity Design",
     description:
       "Comprehensive logo and visual identity design services for businesses of all sizes. This project includes unique logos, color palettes, typography selections, and brand guidelines for a cohesive brand presence.",
-    image: "/images/img4.webp",
+    image: "/images/img3.webp",
     category: "Identity Design",
     technologies: ["Adobe Illustrator", "CorelDRAW", "Affinity Designer"],
   },
