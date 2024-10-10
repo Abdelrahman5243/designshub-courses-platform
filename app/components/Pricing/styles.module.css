@@ -1,0 +1,27 @@
+.card {
+  --color: #6900ff;
+}
+
+.button {
+  position: relative;
+  overflow: hidden;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 200%;
+  height: 200%;
+  background: rgba(163, 163, 163, 0.042);
+  transform: rotate(45deg);
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+.button:hover::before {
+  left: -50%;
+  top: -50%;
+  opacity: 1;
+}
