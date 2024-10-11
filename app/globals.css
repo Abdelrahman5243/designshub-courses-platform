@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .btn {
   border-bottom: 1px solid transparent;
   border-image: linear-gradient(
