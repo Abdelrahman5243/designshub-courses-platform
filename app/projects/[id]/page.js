@@ -32,7 +32,7 @@ const ProjectPage = ({ params }) => {
           placeholder="blur"
         />
       </div>
-      <p className="w-max mb-8 bg-indigo-600 text-indigo-100 text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
+      <p className="w-fit mb-8 bg-indigo-600 text-indigo-100 text-sm font-medium px-2.5 py-0.5 rounded">
         {project.category}
       </p>
       <h1 className="main-heading">{project.title}</h1>
