@@ -6,12 +6,12 @@ const PricingCard = ({ title, subtitle, price, features, popular }) => {
   return (
     <div
       className={`bg-secBg rounded-xl border border-border 
-    p-8 px-6 w-full md:w-1/3 space-y-6 ${styles.card}`}
+    p-8 px-6 w-full space-y-6 ${styles.card}`}
     >
       <h2 className="sec-heading text-2xl flex items-center gap-3">
         {title}
         {popular && (
-          <span className="paragraph text-sm p-1 px-3 rounded-full bg-[#6900ff] flex items-center">
+          <span className="text-sm p-1 px-3 rounded-full bg-[#6900ff] text-white font-semibold flex items-center">
             popular
           </span>
         )}

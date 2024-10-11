@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { MoveRight } from "lucide-react";
+import image3 from "@/public/images/img3.webp";
 
 const Hero = () => {
   return (
@@ -9,7 +10,8 @@ const Hero = () => {
         <p className="paragraph mt-4">
           Join our professional graphic design courses where we provide you with
           the skills and knowledge to turn your ideas into stunning designs.
-          Whether you&apos;re a beginner or a pro, we have something for everyone!
+          Whether you&apos;re a beginner or a pro, we have something for
+          everyone!
         </p>
         <div className="flex flex-wrap gap-4 items-center mt-6">
           <button className="btn">Get started</button>
@@ -19,13 +21,13 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <div className="w-full md:w-1/2 mb-8 md:mb-0 h-96">
+      <div className="w-full md:w-1/2 rounded-lg overflow-hidden h-96">
         <Image
-          src="/images/img6.webp"
-          alt="Graphic Design Course"
-          width={500}
-          height={300}
-          className="rounded-lg object-cover overflow-hidden w-full h-full"
+          alt="graphic design"
+          src={image3}
+          sizes="100vw"
+          className="w-full h-full object-cover"
+          placeholder="blur"
         />
       </div>
     </div>

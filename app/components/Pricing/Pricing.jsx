@@ -9,7 +9,7 @@ const Pricing = () => {
       <p className="paragraph text-center py-5">
         Choose the pricing plan that suits your needs.
       </p>
-      <div className="flex flex-col md:flex-row justify-center items-center gap-4 my-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 my-12">
         {pricingData.map((item, index) => (
           <PricingCard
             key={index}

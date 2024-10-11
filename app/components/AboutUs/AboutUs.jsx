@@ -1,23 +1,24 @@
 import React from "react";
 import Image from "next/image";
 import { Zap, TrendingUp } from "lucide-react";
+import image6 from "@/public/images/img7.webp";
 
 const AboutUs = () => {
   return (
     <section className="container mx-auto px-4 py-16">
       <div className="flex flex-col md:flex-row items-center">
-        <div className="w-full md:w-1/2 mb-8 md:mb-0 h-96">
+        <div className="w-full md:w-1/2 my-8 rounded-lg overflow-hidden h-96">
           <Image
-            src="/images/img3.webp"
-            alt="Graphic Design Course"
-            width={500}
-            height={300}
-            className="rounded-lg object-cover overflow-hidden w-full h-full"
+            alt="graphic design course"
+            src={image6}
+            sizes="100vw"
+            className="w-full h-full object-cover"
+            placeholder="blur"
           />
         </div>
         <div className="md:w-1/2 md:pl-8">
           <h2 className="main-heading mb-4">
-            Unlock Your Creativity with Our Graphic Design Courses
+            Unlock Creativity with Graphic Design
           </h2>
           <p className="paragraph">
             We specialize in providing professional graphic design courses that

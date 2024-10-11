@@ -28,12 +28,11 @@ const ProjectPage = ({ params }) => {
         <Image
           src={project.image}
           alt={project.title}
-          width={500}
-          height={300}
           className="w-full h-full rounded-lg mb-8 object-cover"
+          placeholder="blur"
         />
       </div>
-      <p className="max-w-max mb-8 bg-indigo-600 text-indigo-100 text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
+      <p className="w-max mb-8 bg-indigo-600 text-indigo-100 text-sm font-medium mr-2 px-2.5 py-0.5 rounded">
         {project.category}
       </p>
       <h1 className="main-heading">{project.title}</h1>

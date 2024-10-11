@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-
+import logo from "@/public/images/logo.png";
 const Footer = () => {
   const footerSections = [
     {
@@ -31,13 +31,7 @@ const Footer = () => {
     <footer className="py-8 container mx-auto px-4">
       <div className="flex flex-col items-start md:flex-row justify-between gap-16 mb-8">
         <Link href="/" className="flex items-center space-x-3">
-          <Image
-            src="/images/logo.png"
-            className="h-8"
-            alt="Flowbite Logo"
-            width="30"
-            height="30"
-          />
+          <Image src={logo} className="h-8 w-auto" alt="DesignsHub Logo" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
             DesignsHub
           </span>

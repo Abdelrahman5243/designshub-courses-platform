@@ -18,7 +18,7 @@ const Features = () => {
 
         card.style.setProperty("--mouse-x", `${x}px`);
         card.style.setProperty("--mouse-y", `${y}px`);
-        card.style.setProperty("--opacity", `0.2`);
+        card.style.setProperty("--opacity", `0.15`);
       });
     };
 

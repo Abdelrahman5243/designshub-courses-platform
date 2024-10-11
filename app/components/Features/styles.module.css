@@ -1,39 +1,39 @@
 .card {
-    --mouse-x: 0;
-    --mouse-y: 0;
-    --opacity: 0;
-    overflow: hidden;
-    position: relative;
-    box-sizing: border-box;
+  --mouse-x: 0;
+  --mouse-y: 0;
+  --opacity: 0;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .overlay {
-    left: var(--mouse-x);
-    top: var(--mouse-y);
-    background: var(--color);
-    filter: blur(40px);
-    opacity: var(--opacity);
-    transition: opacity 0.5s;
-    position: absolute;
-    width: 60%;
-    height: 60%;
-    border-radius: 50%;
-    z-index: 0;
+  left: var(--mouse-x);
+  top: var(--mouse-y);
+  background: var(--color);
+  filter: blur(40px);
+  opacity: var(--opacity);
+  transition: opacity 0.5s;
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  z-index: 0;
 }
 
 .card:nth-child(1) {
-    --color: #6900ff7a;
+  --color: #6a00ff;
 }
 
 .card:nth-child(2) {
-    --color: #ff53d47a;
+  --color: #ff53d4;
 }
 
 .card:nth-child(3) {
-    --color: #0bd9757a;
+  --color: #0bd975;
 }
 
 .icon {
-    color: var(--color);
-    margin-bottom: 8px;
+  color: var(--color);
+  margin-bottom: 8px;
 }
