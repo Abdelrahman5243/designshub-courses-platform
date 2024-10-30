@@ -6,6 +6,12 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-image: linear-gradient(to top, #09090f 50%, #1e1024 100%);
+  background-position: center;
+  background-attachment: fixed;
+}
+
 .btn {
   border-bottom: 1px solid transparent;
   border-image: linear-gradient(

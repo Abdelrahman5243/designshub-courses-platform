@@ -5,7 +5,7 @@ import { CheckIcon, XIcon } from "lucide-react";
 const PricingCard = ({ title, subtitle, price, features, popular }) => {
   return (
     <div
-      className={`bg-secBg rounded-xl border border-border 
+      className={`bg-secBg bg-opacity-50 hover:bg-opacity-100 transition rounded-xl border border-border 
     p-8 px-6 w-full space-y-6 ${styles.card}`}
     >
       <h2 className="sec-heading text-2xl flex items-center gap-3">

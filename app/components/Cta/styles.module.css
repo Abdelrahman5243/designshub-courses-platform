@@ -2,4 +2,5 @@
   background-image: url("/images/cta.svg");
   background-size: cover;
   background-position: center;
+  transition: 0.4s;
 }

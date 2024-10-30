@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Zap, TrendingUp } from "lucide-react";
-import image6 from "@/public/images/img7.webp";
+import image7 from "@/public/images/img7.webp";
 
 const AboutUs = () => {
   return (
@@ -10,7 +10,7 @@ const AboutUs = () => {
         <div className="w-full md:w-1/2 my-8 rounded-lg overflow-hidden h-96">
           <Image
             alt="graphic design course"
-            src={image6}
+            src={image7}
             sizes="100vw"
             className="w-full h-full object-cover"
             placeholder="blur"

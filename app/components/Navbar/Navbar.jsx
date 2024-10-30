@@ -25,7 +25,10 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed bg-mainBg w-full z-20 top-0 start-0">
+    <nav
+      className="fixed w-full z-20 top-0 start-0"
+      style={{ backdropFilter: "blur(8px)" }}
+    >
       <div className="container px-4 py-5 mx-auto flex flex-wrap items-center justify-between">
         <Link href="/" className="flex items-center space-x-3">
           <Image src={logo} className="h-8 w-auto" alt="DesignsHub Logo" />

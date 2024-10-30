@@ -15,9 +15,9 @@ const Hero = () => {
         </p>
         <div className="flex flex-wrap gap-4 items-center mt-6">
           <button className="btn">Get started</button>
-          <button className="sec-btn transition-colors duration-300 ease-in-out">
+          <button className="sec-btn transition-all duration-300 group">
             Explore Features
-            <MoveRight className="mt-1" />
+            <MoveRight className="mt-1 group-hover:translate-x-1 transition-transform duration-300" />
           </button>
         </div>
       </div>

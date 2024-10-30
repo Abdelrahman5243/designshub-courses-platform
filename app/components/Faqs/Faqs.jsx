@@ -29,7 +29,7 @@ const Faqs = () => {
       </p>
       {questionsData.map((item, index) => (
         <div
-          className="p-4 my-8 w-4/5 mx-auto bg-secBg rounded-xl border border-border cursor-pointer"
+          className="p-4 my-8 w-4/5 mx-auto bg-secBg bg-opacity-50 hover:bg-opacity-100 transition rounded-xl border border-border cursor-pointer"
           key={index}
           onClick={() => toggleQuestion(index)}
           role="button"

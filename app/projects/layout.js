@@ -3,6 +3,6 @@ export const metadata = {
   description: "View and manage your projects",
 };
 
-export default function RootLayout({ children }) {
+export default function Layout({ children }) {
   return <>{children}</>;
 }

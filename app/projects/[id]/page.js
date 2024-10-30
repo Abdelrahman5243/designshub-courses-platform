@@ -19,7 +19,7 @@ const ProjectPage = ({ params }) => {
       <Link
         href="/projects"
         className="bg-secBg hover:bg-opacity-60 text-white font-semibold max-w-max my-4 p-2.5 px-5
-           rounded flex justify-center items-center gap-2 text-sm"
+     rounded flex justify-center items-center gap-2 text-sm transition duration-300 ease-in-out hover:scale-105"
       >
         <ArrowLeft className="w-4 h-4" />
         Back to projects
@@ -28,7 +28,7 @@ const ProjectPage = ({ params }) => {
         <Image
           src={project.image}
           alt={project.title}
-          className="w-full h-full rounded-lg mb-8 object-cover"
+          className="w-full h-full rounded-lg mb-8 object-cover transition duration-300 ease-in-out hover:opacity-80"
           placeholder="blur"
         />
       </div>
@@ -41,7 +41,12 @@ const ProjectPage = ({ params }) => {
         <h2 className="sec-heading">Technologies Used</h2>
         <ul className="list-disc list-inside my-4">
           {project.technologies.map((tech, index) => (
-            <li key={index}>{tech}</li>
+            <li
+              key={index}
+              className="transition duration-300 ease-in-out hover:text-indigo-400"
+            >
+              {tech}
+            </li>
           ))}
         </ul>
       </div>
