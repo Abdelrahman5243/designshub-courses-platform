@@ -42,7 +42,7 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed w-full z-20 top-0 start-0 transition-all duration-300 ${
-        isScrolled
+        (isScrolled || isMenuOpen)
           ? "backdrop-blur bg-[#1e1024] bg-opacity-50"
           : "bg-transparent"
       }`}
