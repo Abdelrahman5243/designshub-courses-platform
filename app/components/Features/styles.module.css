@@ -5,6 +5,7 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  box-shadow: 0 0 1px var(--color);
 }
 
 .overlay {
