@@ -54,7 +54,7 @@ const Features = () => {
         Find answers to commonly asked questions about our services and
         solutions.
       </p>
-      <div className="grid justify-center gap-4 grid-cols-1 mt-8 sm:grid-cols-2 md:grid-cols-3">
+      <div className="grid justify-center gap-4 grid-cols-1 mt-8 md:grid-cols-2 lg:grid-cols-3">
         {featuresData.map((feature, index) => (
           <FeatureCard key={index} {...feature} />
         ))}
